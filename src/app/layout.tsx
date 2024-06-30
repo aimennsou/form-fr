@@ -9,7 +9,7 @@ const ubuntu = Ubuntu({
 })
 
 export const metadata: Metadata = {
-  title: "Digitalisation de sécteur de santé",
+  title: "Formulaire",
   description: "Formulaire a remplire",
 };
 
