@@ -1,0 +1,19 @@
+datasource db {
+  provider = "postgresql" // or "mysql", "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model FormResponse {
+  id         Int      @id @default(autoincrement())
+  createdAt DateTime @default(now())
+  name       String
+  email      String
+  phone      String
+  page2      String[]
+  page3      String[]
+  page4      String
+}
