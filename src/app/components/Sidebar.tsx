@@ -17,7 +17,7 @@ const Sidebar: React.FC<SidebarProps> = ({ step }) => {
     <div className="flex border border-gray-200 justify-center items-start pt-8 h-[172px] w-full bg-no-repeat bg-cover bg-[#f7f8fa]
       sm:flex-col sm:justify-start sm:items-start sm:p-8 sm:w-[274px] sm:h-[calc(100vh-32px)] sm:bg-[#f7f8fa] sm:rounded-lg sm:bg-center"
     >
-      <div className="flex flex-row gap-4 sm:flex-col sm:gap-8">
+      <div className="flex flex-row gap-4 sm:flex-col justify-between sm:gap-8">
         <ul className="flex flex-row gap-4 sm:flex-col sm:gap-8">
           {steps.map((s) => {
             const isActive = step === s.number;
@@ -42,6 +42,11 @@ const Sidebar: React.FC<SidebarProps> = ({ step }) => {
             );
           })}
         </ul>
+            <p>
+                  <Link href="https://github.com/aimennsou/lebondiplomes">
+                      <Button className="hover:border-green-700" variant="outline"> Voir le code source </Button>
+                      </Link>
+                  </p>
       </div>
     </div>
   );
