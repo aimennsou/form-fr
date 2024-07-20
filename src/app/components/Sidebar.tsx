@@ -43,7 +43,7 @@ const Sidebar: React.FC<SidebarProps> = ({ step }) => {
           })}
         </ul>
             <p>
-                  <Link href="https://github.com/aimennsou/lebondiplomes">
+                  <Link href="https://github.com/aimennsou/form-fr">
                       <Button className="hover:border-green-700" variant="outline"> Voir le code source </Button>
                       </Link>
                   </p>
