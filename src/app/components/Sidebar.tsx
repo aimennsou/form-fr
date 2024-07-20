@@ -41,7 +41,7 @@ const Sidebar: React.FC<SidebarProps> = ({ step }) => {
           })}
         </ul>
            <Link href="https://github.com/aimennsou/form-fr">
-          <a className="border border-gray-300 py-3 px-4 mt-4 rounded hover:border-blue-400 ease-in-out text-sm text-white font-medium sm:text-base">
+          <a className="border border-gray-300 py-3 px-4 mt-4 rounded hover:border-blue-400 ease-in-out text-sm text-[#6c757d] font-medium sm:text-base">
             Voir le code source
           </a>
         </Link>
